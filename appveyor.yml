@@ -21,10 +21,13 @@ install:
 test_script:
   - cargo run
 
+before_deploy:
+  - ps: ci\before_deploy.ps1
+
 deploy:
   artifact: /.*\.zip/
   auth_token:
-    secure: bh+7SLNiPo3LZohX5qJ+f/xhGJArnvMVJ/g+93VMhy1P+cGh12OuBSgjgB6nJ+Fj
+    secure: 2JW8QIdIRBEKSyE72c4YVCKaHx4DlrB5go1g9lM9yRlxZm5rpWJQsstAgTTnVjlj
   description: ''
   on:
     RUST_VERSION: stable
