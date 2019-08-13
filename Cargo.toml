@@ -1,0 +1,12 @@
+[package]
+name = "zeus_freestyle"
+version = "0.1.0"
+authors = ["Brett <brett@bmandesigns.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+armake2 = {git = "https://github.com/SynixeBrett/armake2", branch = "restructure"}
+regex = "*"
+hashbrown = "*"
