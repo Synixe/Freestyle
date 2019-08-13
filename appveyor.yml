@@ -4,6 +4,9 @@ environment:
 
     matrix:
         - TARGET: x86_64-pc-windows-msvc
+        OPENSSL_DIR: C:\OpenSSL-v111-Win32
+        OPENSSL_LIBS: libssl_static:libcrypto_static
+        OPENSSL_STATIC: 1
 
 install:
     - ps: >-
