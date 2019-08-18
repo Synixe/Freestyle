@@ -13,7 +13,7 @@ if (side player != sideLogic) then {
 
 		SFS_SPAWN_PFH = [{
 			if !((missionNamespace getVariable ["SFS_SPAWN_POS", []]) isEqualTo []) then {
-				player setPosASL (SFS_SPAWN_POS findEmptyPosition [0,100]);
+				[player, SFS_SPAWN_POS, true] call BIS_fnc_moveToRespawnPosition;
 				player enableSimulation true;
 				[false] call ace_spectator_fnc_setSpectator;
 				[SFS_SPAWN_PFH] call CBA_fnc_removePerFrameHandler;
