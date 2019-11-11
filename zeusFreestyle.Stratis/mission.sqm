@@ -215,7 +215,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Synixe Freestyle v1";
+		briefingName="Synixe Freestyle v1.1";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
