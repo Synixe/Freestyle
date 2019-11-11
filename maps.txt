@@ -1,4 +1,5 @@
 Altis
+archipelago
 Angel
 bozcaada
 blud_cordelia // Suonkomar Sahav
@@ -6,6 +7,7 @@ Enoch // Livonia
 Gorgona
 hebontes
 hellanmaa
+hellanmaaw
 imrali
 imralispring
 K9S_Teumess
