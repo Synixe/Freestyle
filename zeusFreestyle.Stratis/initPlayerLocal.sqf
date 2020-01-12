@@ -1,7 +1,7 @@
 // Register freestyle modules
 ["Synixe Freestyle", "Spawn Location", {
 	params ["_location", ""];
-	missionNamespace setVariable ["SFS_SPAWN_POS", _location, true];
+	missionNamespace setVariable ["SFS_SPAWN_POS", ASLtoAGL _location, true];
 }] call zen_custom_modules_fnc_register;
 
 if (side player != sideLogic) then {
