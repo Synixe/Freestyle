@@ -24,3 +24,15 @@ Tanoa
 tem_suursaariv // Suursaari
 Tembelan
 VR
+Woodland_ACR // Bystrica
+cup_chernarus_A3 // Chernarus 2020
+chernarus // Chernarus (Autumn)
+Chernarus_Winter
+porto
+ProvingGrounds_PMC
+sara // Sahrani
+Shapur_BAF
+takistan
+Mountains_ACR // Takistan Mountains
+utes
+zargabad
